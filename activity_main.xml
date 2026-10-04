@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:padding="24dp">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="VU PROMOTER"
-        android:textSize="30sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="Land buying and selling"
-        android:textSize="18sp" />
-
-</LinearLayout>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="VU Promoter" android:textSize="30sp" android:textStyle="bold" android:textColor="#1565C0" android:gravity="center" android:layout_marginBottom="6dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Land Buying &amp; Selling" android:textSize="18sp" android:gravity="center" android:layout_marginBottom="24dp" />
+        <EditText android:id="@+id/nameInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Customer / Owner Name" android:inputType="textPersonName" />
+        <EditText android:id="@+id/phoneInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Phone Number" android:inputType="phone" />
+        <EditText android:id="@+id/locationInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Land Location" android:inputType="textCapSentences" />
+        <EditText android:id="@+id/areaInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Land Area (cent / sq.ft)" android:inputType="text" />
+        <EditText android:id="@+id/priceInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Expected Price" android:inputType="numberDecimal" />
+        <EditText android:id="@+id/notesInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Notes" android:inputType="textMultiLine" android:minLines="3" />
+        <Button android:id="@+id/saveButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SAVE LAND DETAILS" android:layout_marginTop="18dp" />
+        <Button android:id="@+id/clearButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="CLEAR" />
+    </LinearLayout>
+</ScrollView>
