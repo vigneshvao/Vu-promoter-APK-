@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#F7F7F7">
+<LinearLayout android:orientation="vertical" android:padding="24dp"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:text="VU PROMOTER" android:textSize="30sp" android:textStyle="bold"
+        android:textColor="#111111" android:gravity="center"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:text="LAND BUYING &amp; SELLING" android:textSize="16sp"
+        android:textColor="#C9A227" android:gravity="center"
+        android:layout_marginTop="6dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/buyButton" android:text="🏠  Buy Land"
+        android:layout_marginTop="28dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/sellButton" android:text="📍  Sell Your Land"
+        android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/contactButton" android:text="📞  Contact Promoter"
+        android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/status" android:text="Welcome to VU Promoter"
+        android:textSize="17sp" android:textColor="#333333" android:gravity="center"
+        android:layout_marginTop="30dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
+</ScrollView>
