@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VU Promoter</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f5f6f8;color:#171717}
+header{background:#111;color:#fff;padding:20px 18px;border-radius:0 0 22px 22px}
+.logo{font-size:27px;font-weight:800;letter-spacing:1px}.tag{color:#d7ad55;margin-top:4px}
+.search{margin-top:18px;background:#fff;border-radius:14px;padding:13px;color:#777}
+.wrap{padding:18px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:#fff;border-radius:16px;padding:16px;box-shadow:0 3px 14px #00000012}
+.big{grid-column:1/-1}.title{font-size:20px;font-weight:750;margin-bottom:10px}
+.btn{display:inline-block;background:#111;color:#fff;padding:11px 15px;border-radius:10px;text-decoration:none;border:0;margin-top:8px;font-weight:700}
+.gold{background:#c9952e}.property{margin-top:12px;overflow:hidden}.property img{width:100%;height:150px;object-fit:cover;border-radius:12px}
+.price{font-weight:800;color:#b07913;font-size:18px}.muted{color:#666;font-size:14px}.row{display:flex;gap:8px;flex-wrap:wrap}
+footer{text-align:center;padding:25px;color:#777;font-size:13px}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">VU PROMOTER</div>
+  <div class="tag">Land Buying & Selling</div>
+  <div class="search">🔎 Search plots, land, projects or location</div>
+</header>
+
+<div class="wrap">
+  <div class="grid">
+    <div class="card"><div class="title">🏠 Buy Land</div><div class="muted">Find residential & commercial plots</div><button class="btn gold" onclick="alert('Property search opened')">Search</button></div>
+    <div class="card"><div class="title">📌 Sell Land</div><div class="muted">List your property with VU Promoter</div><button class="btn" onclick="alert('Listing request received')">List Property</button></div>
+    <div class="card big">
+      <div class="title">Featured Properties</div>
+      <div class="property card">
+        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80">
+        <h3>Premium Residential Plot</h3>
+        <div class="price">₹12.50 Lakh</div>
+        <div class="muted">Divansapudur • 1200 sq.ft • East Facing</div>
+        <div class="row"><button class="btn gold" onclick="visit()">Book Site Visit</button><a class="btn" href="https://wa.me/916383588314?text=I%20am%20interested%20in%20VU%20Promoter%20property">WhatsApp</a></div>
+      </div>
+      <div class="property card">
+        <img src="https://images.unsplash.com/photo-1461354464878-ad92f492a5a0?auto=format&fit=crop&w=900&q=80">
+        <h3>Investment Land</h3>
+        <div class="price">Contact for Price</div>
+        <div class="muted">Near Pollachi • Clear approach road</div>
+        <div class="row"><button class="btn gold" onclick="visit()">Enquire Now</button><a class="btn" href="tel:+916383588314">Call</a></div>
+      </div>
+    </div>
+    <div class="card"><div class="title">👥 Leads</div><div class="muted">Track enquiries & follow-ups</div></div>
+    <div class="card"><div class="title">📅 Site Visits</div><div class="muted">Manage customer visits</div></div>
+    <div class="card big">
+      <div class="title">Contact VU Promoter</div>
+      <div class="muted">📱 WhatsApp / Call: 6383588314</div>
+      <div class="muted">📍 Divansapudur – 642103</div>
+      <a class="btn gold" href="https://wa.me/916383588314?text=Hello%20VU%20Promoter">Chat on WhatsApp</a>
+      <a class="btn" href="tel:+916383588314">Call Now</a>
+    </div>
+  </div>
+</div>
+<footer>© 2026 VU Promoter • Land Buying & Selling</footer>
+<script>
+function visit(){alert("Thank you! VU Promoter will contact you to confirm the site visit.");}
+</script>
+</body>
+</html>
